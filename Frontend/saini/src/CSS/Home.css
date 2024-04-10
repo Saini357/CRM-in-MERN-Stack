@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Home.css */
+
+.homeContainer {
+  width: 90%;
+  float: right;
+  border: 1px solid #000;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table thead {
+  background-color: #f5f5f5;
+}
+
+.table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Styling for alternating rows (optional) */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

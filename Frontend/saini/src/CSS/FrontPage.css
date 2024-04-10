@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.btnLogin {
+  position: fixed;
+  padding: 10px 20px;
+  font-size: 16px;
+  float: right;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnLogin:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(165, 181, 191, 0.5);
+}
+
+.btnLogin:active {
+  transform: translateY(1px);
+}
+
+.containerFront {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/html-css-collage-concept-with-person.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+.img {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid #000;
+}
+
+.FrontSecond {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/medium-shot-woman-working-laptop.jpg");
+  background-size: cover;
+}
